@@ -1,0 +1,571 @@
+/**
+ * Chad Ramsey
+ * date 3.20.2013
+ * FB API 
+ */
+
+.logo	{
+	
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	height: 120px;
+
+	text-align: center;
+	background-color: #d8dfea;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1px;
+	margin-top: 20px;
+	border-radius: 5px;
+
+
+}
+
+.title	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	height: 120px;
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: 20px;
+	border-radius: 5px;
+        border-color:#000000;
+        border-style:solid;
+        border-width:1px;
+
+}
+
+.title > img	{
+	
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+.main	{
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 800px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+
+}
+
+.overview_album_activity	{
+	
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	height: 90px;
+	margin: 15px;
+	height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+	
+}
+
+.login_container		{
+	
+	text-align: center;
+	margin-top: 20px;
+	height:800px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+	width: 10px;
+	background-color: #ffffff;
+	border-radius: 5px;
+
+	
+}
+
+.overview_album_content	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	height: 90px;
+	margin: 10px;
+	height: 500px;
+	border-radius: 2px;
+
+	
+}
+
+.overview_album_piechart	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	height: 90px;
+	margin: 15px;
+	height: 500px;
+	border-radius: 3px;
+	
+}
+
+.overview_policy_stats	{
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 15px;
+	height: 250px;
+	border-radius: 5px;
+	border-style:solid;
+    border-color:#000000;
+    border-width:1px;
+	
+}
+
+.overview_privacy_threats	{
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	height: 250px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+
+}
+
+.privacy_treemap	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	height: 720px;
+	margin-left: 15px;
+	margin-top: 5px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+	
+}
+
+.treemap_sensitivity	{
+	
+	margin-top: 5px;
+	
+	
+}
+
+.treemap_threats	{
+	
+	margin-top: 5px;
+
+	
+}
+
+.album_details	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	text-align: 'center';
+     display: block;
+    margin: 0 auto;
+	margin-left: 15px;
+	margin-top: 15px;
+	
+}
+
+.album_details_back		{
+	
+	margin-left: 500px;
+	
+}
+
+.album_details_most_commented	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	height: 120px;
+	margin-bottom: 15px;
+	
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+	
+}
+
+.album_details_most_liked		{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	height: 120px;
+	margin-bottom: 15px;
+	
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+	
+}
+
+.album_details_specs		{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	height: 120px;
+	margin-bottom: 15px;
+	
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+	
+}
+
+.album_details_similar_albums	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	height: 120px;
+	margin-bottom: 15px;
+		
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+	
+}
+
+.album_details_detected_threats		{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	height: 240px;
+	margin-bottom: 15px;
+	
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+	
+}
+
+.album_details_visible_to		{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	height: 130px;
+	margin-bottom: 15px;
+	
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+    
+    overflow-y: scroll;
+	
+}
+
+.album_details_hidden_from		{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	height: 130px;
+	margin-bottom: 10px;
+	
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+    border-color:#000000;
+        
+    overflow-y: scroll;
+	
+}
+
+.album_details_buttons	{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	
+	margin-top: -125px;
+	margin-bottom: 15px;
+	
+}
+
+.policy_stats_statistics	{
+
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	height: 370px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+
+	
+}
+
+.policy_stats_tagcloud	{
+
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	height: 370px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+
+	
+}
+
+.navigation		{
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	height: 780px;
+	background-color: #d8dfea;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	border-radius: 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+
+}
+
+.template_details_threats_public		{
+	
+	font-size: 14px;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	padding-right: 5px;
+	
+	float: left;
+	
+}
+
+.template_details_threats_public > img	{
+	
+	margin-left: 15px;
+	margin-right: 5px;
+	float: left;
+	
+}
+
+.templateDetailsSimilar		{
+	
+	font-size: 14px;
+	text-align: center;
+	width: 270px;
+	height: 110px;
+	
+}
+
+.templateDetailsSimilar > img		{
+	
+	margin-left: 15px;
+	margin-right: 5px;
+	float: left;
+	
+}
+
+.templateOverviewLikes		{
+	
+	font-size: 14px;
+	text-align: center;
+	width: 270px;
+	height: 110px;
+	
+}
+
+.templateOverviewLikes > img		{
+	
+	margin-left: 15px;
+	margin-right: 5px;
+	float: left;
+	
+}
+
+.templateOverviewComments		{
+	
+	font-size: 14px;
+	text-align: center;
+	width: 270px;
+	height: 110px;
+	
+}
+
+.templateOverviewComments	 > img	{
+	
+	margin-left: 15px;
+	margin-right: 5px;
+	float: left;
+	
+}
+
+.templateOverviewTagged		{
+	
+	font-size: 14px;
+	text-align: center;
+	width: 270px;
+	height: 110px;
+	
+}
+
+.templateOverviewTagged > img		{
+	
+	margin-left: 15px;
+	margin-right: 5px;
+	float: left;
+	
+}
+
+/*.pthreats_button	{
+	
+	
+}
+
+.pstats_button	{
+	
+	
+}
+*/
+
+
+.survey_title	{
+	
+	font-size: 17px;
+	
+}
+
+.album_survey_questions_page1	{
+	
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+.album_survey_questions_page1 > button		{
+	
+	margin-left: 460px;
+	
+}
+
+.album_survey_questions_page2	{
+	
+	font-size: 15px;
+	text-align: center;
+		
+}
+
+.survey_next_page2		{
+	
+	margin-left: 300px;
+	margin-right: 60px;
+	
+}
+
+.album_details_similar_albums > img		{
+	
+	float: left;
+	padding-right: 5px;
+	
+}
+
+.album_details_similar_albums	{
+	
+	overflow-y: scroll;
+	
+}
+
+.album_details_detected_threats		{
+	
+	overflow-y: scroll;
+	
+}
+
+.album_details_specs	> img	{
+	
+	float: left;
+	padding-right: 10px;
+	
+}
+
+.album_details_specs		{
+	
+	overflow-y: scroll;
+	
+}
+
+
+.album_details_buttons > button 	{
+   
+   padding-left: 75px !important;
+   width: 300px !important;
+   font-size: 12px !important;
+   
+}
+
+.album_details_most_commented > img		{
+	
+	margin-left: 25px;
+	margin-top: 10px;
+	
+}
+
+.album_details_most_liked > img		{
+	
+	margin-left: 25px;
+	margin-top: 10px;
+	
+}
+
+.ui-button .ui-button-text 		{
+   width: 120px !important;
+   font-size: 15px !important;
+   
+}
